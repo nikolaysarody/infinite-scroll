@@ -1,5 +1,7 @@
 import './PostDetails.scss'
+import { useNavigate } from 'react-router-dom'
 import { useFetchPostById } from 'src/entities/Post/api/postApi'
+import { getRoutePost } from 'src/shared/const/router'
 import { PageLoader } from 'src/widgets/PageLoader'
 
 interface PostDetailsProps {
@@ -10,6 +12,7 @@ export const PostDetails = (props: PostDetailsProps) => {
     const {
         id = 0,
     } = props
+    const navigate = useNavigate()
 
     const {
         data: post,
@@ -36,6 +39,12 @@ export const PostDetails = (props: PostDetailsProps) => {
                         {' '}
                         {post?.body}
                     </div>
+                    <button
+                        type='button'
+                        onClick={() => navigate(getRoutePost())}
+                    >
+                        Назад
+                    </button>
                 </div>
             )}
         </>
