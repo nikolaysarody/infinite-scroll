@@ -2,7 +2,7 @@
 
 Ссылка на опубликованный проект: <https://nikolaysarody.github.io/infinite-scroll/>
 
-Используемые технологии: TypeScript, React, redux-toolkit, RTK Query.
+Используемые технологии: TypeScript, React, redux-toolkit, RTK Query, React Router DOM 6.
 
 Используемые публичные API: JSONPlaceholder - <https://jsonplaceholder.typicode.com>
 
