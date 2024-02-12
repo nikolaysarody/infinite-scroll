@@ -1,0 +1,17 @@
+@import "reset";
+
+html {
+    font-size: 18px;
+}
+
+.app {
+    min-height: 100svh;
+}
+
+.content-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
