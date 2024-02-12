@@ -2,7 +2,7 @@
     "name": "infinite-scroll",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://nikolaysarody.github.io/infinite-scroll",
+    "homepage": "https://nikolaysarody.github.io/infinite-scroll/",
     "dependencies": {
         "@reduxjs/toolkit": "^2.1.0",
         "@types/node": "^16.18.80",
